@@ -1,0 +1,38 @@
+{
+  "name": "gh-blog-emojione",
+  "version": "0.0.1",
+  "description": "Emoji plugin for gh-blog with PNG and SVG assests from the emojione project",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gh-blog/emojione"
+  },
+  "keywords": [
+    "gh-blog-plugin",
+    "emoji",
+    "smiley",
+    "emoticons"
+  ],
+  "author": "Muhammad Fawwaz Orabi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gh-blog/emojione/issues"
+  },
+  "homepage": "https://github.com/gh-blog/emojione",
+  "gh-blog": {
+    "requires": [
+      "content"
+    ],
+    "provides": [
+      "emoji"
+    ]
+  },
+  "dependencies": {
+    "emojione": "^1.0.6",
+    "through2": "^0.6.1",
+    "vinyl": "^0.4.3"
+  }
+}
